@@ -42,7 +42,10 @@
             @(NSLayoutAttributeHeight)   : @"height",
             @(NSLayoutAttributeCenterX)  : @"centerX",
             @(NSLayoutAttributeCenterY)  : @"centerY",
-            @(NSLayoutAttributeBaseline) : @"baseline",
+
+            //修改,直接注释该字段
+            //@(NSLayoutAttributeBaseline) : @"baseline",
+            
             @(NSLayoutAttributeFirstBaseline) : @"firstBaseline",
             @(NSLayoutAttributeLastBaseline) : @"lastBaseline",
 
